@@ -1,14 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Олеся в світі хакерства" />
+    <meta
+      name="og:image"
+      content="https://cherepanynn.github.io/og_image.JPG"
+    />
     <title>olesiacherepanyn</title>
+    <link rel="icon" type="image/x-icon" href="heart.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Seymour+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/css/lightgallery.min.css"
+      integrity="sha512-e/7+n/bcByOQg6+rGt7Bx12Si0rpj4Xfe3EeS3W2RDSGGG/qT9rC7ZQCVAgaVAmZKZisvZ1DqaMd66TzfVO/Sw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Seymour+One&display=swap" rel="stylesheet">
   </head>
   <body>
     <div id="about" class="section section-about">
@@ -16,16 +33,17 @@
         <div class="about__col__left">
           <div class="about__col__left_wrapper">
             <h2>LET`S TALK</h2>
-            <p>
+            <p class="black">
               Привіт! Мене звати Олеся і я графічний дизайнер. Окрім дизайну
-              люблю смачну їжу та круту косметику, а ще спати до обіду і жартувати. Також
-              обожнюю позитивних людей та мою кішку Шанель,вона зірка.
+              люблю смачну їжу та круту косметику, а ще спати до обіду і
+              жартувати. Також обожнюю позитивних людей та мою кішку Шанель,
+              вона зірка.
             </p>
           </div>
         </div>
-        <div class="about__col__right ">
+        <div class="about__col__right">
           <div class="about__col__right_image">
-            <img src="olezia.jpg"> 
+            <img src="olezia.jpg" />
           </div>
         </div>
       </div>
@@ -34,57 +52,107 @@
     <div id="portfolio" class="section section-portfolio">
       <div class="wrapper">
         <h2>ПОРТФОЛІО</h2>
-        <div class="gallery">
+        <div class="gallery" id="lightgallery">
           <div class="gallery--item">
-            <img src="Bag.jpg" />
+            <a
+              href="Bag.jpg"
+              target="_blank"
+              data-sub-html="<h4>MOLODIST'</h4><p>редизайн стилістики фестивалю</p>"
+            >
+              <img src="Bag.jpg" />
+            </a>
           </div>
           <div class="gallery--item">
-            <img src="Poster_Mockups.png" />
+            <a
+              href="Poster_Mockups.png"
+              target="_blank"
+              data-sub-html="<h4>WOMAN</h4><p>серія ілюстрацій про жінок</p>"
+            >
+              <img src="Poster_Mockups.png" />
+            </a>
           </div>
           <div class="gallery--item">
-            <img src="1984_mockup-01.png" />
+            <a
+              href="1984_mockup-01.png"
+              target="_blank"
+              data-sub-html="<h4>1984</h4><p>дизайн обкладинки романа-антиутопії </p>"
+            >
+              <img src="1984_mockup-01.png" />
+            </a>
           </div>
           <div class="gallery--item">
-            <img src="merch.png" />
+            <a
+              href="merch.png"
+              target="_blank"
+              data-sub-html="<h4>МЕРЧ</h4><p>дизайн футболки для ЛНАМ</p>"
+            >
+              <img src="merch.png" />
+            </a>
           </div>
           <div class="gallery--item">
-            <img src="sticker-mockup.jpg" />
+            <a
+              href="sticker-mockup.jpg"
+              target="_blank"
+              data-sub-html="<h4>СТІКЕРИ</h4><p>редизайн стилістики фестивалю</p>"
+            >
+              <img src="sticker-mockup.jpg" />
+            </a>
           </div>
           <div class="gallery--item">
-            <img src="illustration.png" />
+            <a
+              href="illustration.png"
+              target="_blank"
+              data-sub-html="<h4>МОРЕ</h4><p>серія ілюстрацій </p>"
+            >
+              <img src="illustration.png" />
+            </a>
           </div>
         </div>
       </div>
     </div>
 
-    <div id="contacts" class=" section section-contacts">
+    <div id="contacts" class="section section-contacts">
       <div class="wrapper">
-        <h2>КОНТАКТИ</h2>
-        <a href="mailto:olesiacherepanyn@gmail.com" class="underline right">olesiacherepanyn@gmail.com</a>
-        <div class="olesia"> <a href="tel:+380966126198" class="underline">+380 96 61 26 198</a></div>
-        <div class="flex">
-        <a class="social-href teleg" href="https://www.instagram.com/cherepanyn/?hl=en" target="_blank">
-          <h4>INSTAGRAM</h4>
-        <a class="social-href" href="https://t.me/cherepanynn" target="_blank">
-            <h4>TELEGRAM</h4> </div>
-        <a class="to-top" href="#top">На початок</a>
-      </div>
-    </div>
-    
-      <div class="header">
-        <div class="wrapper">
-          <a href="#top" class="logo">
-              <!-- <img src="logo.png" /> -->
-              cherepanyn.
+        <h2>FIND ME ON</h2>
+        <div class="icon0">
+          <a href="https://www.instagram.com/cherepanyn/" target="_blank">
+            <img src="instagram-logo.png" class="icon" />
           </a>
-          <ul class="menu">
-            <li><a href="#about">Про мене</a></li>
-            <li><a href="#portfolio">Портфоліо</a></li>
-            <li><a href="#contacts">Контакти</a></li>
-          </ul>
-    
-          
+
+          <a href="https://t.me/cherepanynn" target="_blank">
+            <img src="telegram-logo.png" class="icon" />
+          </a>
+
+          <a href="http://www.behance.net/olesiacherepanynn" target="_blank">
+            <img src="behance-logo.png" class="icon" />
+          </a>
         </div>
       </div>
-    </body>
-  </html>
+    </div>
+
+    <div class="header">
+      <div class="wrapper">
+        <a href="#top" class="logo">
+          <!-- <img src="logo.png" /> -->
+          cherepanyn.
+        </a>
+        <ul class="menu">
+          <li><a href="#about">Про мене</a></li>
+          <li><a href="#portfolio">Портфоліо</a></li>
+          <li><a href="#contacts">Контакти</a></li>
+        </ul>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/lightgallery.min.js"
+      integrity="sha512-+1CyleTPoFvPO15/CfBZ5h6k/mu/qCQe9uxq1tEfO7SRJ52MnCAQ561bAYkvrsGtnG7AkcvKtVwdeoZc8ps7bQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="text/javascript">
+      lightGallery(document.getElementById("lightgallery"), {
+        selector: ".gallery--item a",
+      });
+    </script>
+  </body>
+</html>

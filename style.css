@@ -16,9 +16,11 @@ p {
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   font: smaller;
+  color: #ffffff;
+}
+.black {
   color: #000000;
 }
-
 .section {
   width: 100vw; /* 100% == 100vw vieport width */
   max-width: 100%; /* hack for 100vw */
@@ -43,7 +45,14 @@ p {
   position: absolute;
   height: min-content;
 }
+.icon {
+  padding-right: 20px;
+}
 
+.icon0 {
+  padding-top: 0px;
+  display: flex;
+}
 .header {
   background-color: #000000;
 
@@ -93,7 +102,7 @@ p {
 
 .menu a {
   color: #f8c3f8;
-  font-size: 16px;
+  font-size: 0.8em;
   line-height: 60px;
   padding: 0 8px;
   display: block;
@@ -118,7 +127,9 @@ p {
   width: 100%;
   display: block;
 }
-
+p {
+  color: #ffffff;
+}
 .section-about .wrapper {
   padding-top: 60px;
   display: flex;
@@ -133,7 +144,7 @@ p {
 }
 
 .about__col__left_wrapper {
-  padding: 20px;
+  padding: 10px;
 }
 
 .about__col__right {
@@ -146,23 +157,23 @@ p {
   padding-left: 40px;
 }
 .about__col__right_image img {
-  max-width: 100%;
+  max-width: 90%;
 }
 
-.section-sonya {
-  padding-top: 60px;
+.section-klas {
+  padding-top: 100px;
 }
 
-.section-sonya .gallery-row {
+.section-klas .gallery-row {
   display: flex;
 }
 
-.section-sonya .gallery-column-left,
-.section-sonya .gallery-column-right {
+.section-klas .gallery-column-left,
+.section-klas .gallery-column-right {
   width: 20%;
 }
 
-.section-sonya .gallery-column-left {
+.section-klas .gallery-column-left {
   background-color: aquamarine;
 }
 
@@ -187,6 +198,7 @@ p {
   color: black;
   font-family: serif;
 }
+
 .social-href {
   color: black;
   font-family: serif;
