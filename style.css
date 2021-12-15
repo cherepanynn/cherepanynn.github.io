@@ -34,6 +34,7 @@ p {
 }
 .section-portfolio {
   background: linear-gradient(180deg, #fff8ff 0%, #f8dcf8 100%);
+  padding-top: 40px;
 }
 .section-contacts {
   background: linear-gradient(180deg, #f8dcf8 0%, #f8c3f8 100%);
@@ -121,7 +122,7 @@ p {
   gap: 10px;
 }
 .gallery--item {
-  width: 32%;
+  width: 33%;
 }
 .gallery--item img {
   width: 100%;
